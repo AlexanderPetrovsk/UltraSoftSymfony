@@ -19,7 +19,7 @@ class UserForm
 
     public function getHelloMessage(): string
     {
-        return $this->$helloMessage;
+        return $this->helloMessage;
     }
 
     public function setHelloMessage(string $helloMessage): string
@@ -31,7 +31,7 @@ class UserForm
 
     public function getEmail(): string
     {
-        return $this->$email;
+        return $this->email;
     }
 
     public function setEmail(string $email): string
