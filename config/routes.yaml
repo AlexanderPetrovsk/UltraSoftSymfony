@@ -9,3 +9,27 @@ hello:
     defaults: {
         _controller: App\Controller\HelloController::hello
     }
+
+create:
+    path: /create
+    defaults: {
+        _controller: App\Controller\HelloController::create
+    }
+
+patch:
+    path: /patch
+    defaults: {
+        _controller: App\Controller\HelloController::patch
+    }
+
+delete:
+    path: /delete
+    defaults: {
+        _controller: App\Controller\HelloController::delete
+    }
+
+get:
+    path: /get
+    defaults: {
+        _controller: App\Controller\HelloController::get
+    }
