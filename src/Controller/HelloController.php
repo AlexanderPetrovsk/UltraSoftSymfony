@@ -24,7 +24,7 @@ class HelloController extends AbstractController
         $form = $this->exampleService->createUserForm($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
-            return $this->render('submitted-form.html.twig' []);
+            return $this->render('success-form.html.twig');
         }
 
         return $this->render('form.html.twig', [
